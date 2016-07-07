@@ -1,0 +1,323 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>商品连连看</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary JavaScript plugins) -->
+<script type='text/javascript' src="js/jquery-1.11.1.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Gretong Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='http://fonts.useso.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Playfair+Display:400,700,900' rel='stylesheet' type='text/css'>
+<!-- start menu -->
+<link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/etalage.css">
+<script type="text/javascript" src="js/megamenu.js"></script>
+<script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
+<script src="js/jquery.etalage.min.js"></script>
+<script src="js/menu_jquery.js"></script>
+<script>
+			jQuery(document).ready(function($){
+
+				$('#etalage').etalage({
+					thumb_image_width: 300,
+					thumb_image_height: 400,
+					source_image_width: 900,
+					source_image_height: 1200,
+					show_hint: true,
+					click_callback: function(image_anchor, instance_id){
+						alert('Callback example:\nYou clicked on an image with the anchor: "'+image_anchor+'"\n(in Etalage instance: "'+instance_id+'")');
+					}
+				});
+
+			});
+		</script>
+
+</head>
+<body>
+<!-- header_top -->
+<div class="top_bg">
+	<div class="container">
+		<div class="header_top">
+			<div class="top_right">
+				<ul>
+					<li><a href="contact.html">联系我们</a></li>|
+				</ul>
+			</div>
+			<div class="top_left">
+				<h2><span></span> 电话 : 400 2352 782</h2>
+			</div>
+				<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!-- header -->
+<div class="header_bg">
+<div class="container">
+	<div class="header">
+	<div class="head-t">
+		<div class="logo">
+			<a href="index.html"><img src="images/烤吧烤吧logo.jpg" class="img-responsive" alt=""/> </a>
+		</div>
+		<!-- start header_right -->
+		<div class="header_right">
+			<div class="rgt-bottom">
+				<div class="log">
+					<div class="login" >
+						<div id="loginContainer"><a href="#" id="loginButton"><span>登录</span></a>
+						    <div id="loginBox">                
+						        <form id="loginForm">
+						                <fieldset id="body">
+						                	<fieldset>
+						                          <label for="email">邮箱</label>
+						                          <input type="text" name="email" id="email">
+						                    </fieldset>
+						                    <fieldset>
+						                            <label for="password">密码</label>
+						                            <input type="password" name="password" id="password">
+				                        </fieldset>
+						                    <input type="submit" id="login" value="登录">
+						                	<label for="checkbox"><input type="checkbox" id="checkbox"> <i>记住我</i></label>
+						            	</fieldset>
+						            <span><a href="#">忘记密码？</a></span>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="reg">
+					<a href="register.html">注册</a>
+				</div>
+			<div class="cart box_1">
+				<a href="checkout.html">
+					<h3> <span class="simpleCart_total">¥0.00</span> (<span id="simpleCart_quantity" class="simpleCart_quantity">0</span> 条)<img src="images/bag.png" alt=""></h3>
+				</a>	
+				<p><a href="javascript:;" class="simpleCart_empty">(清空购物车)</a></p>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="create_btn">
+				<a href="checkout.html">结算</a>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="search">
+		    <form>
+		    	<input type="text" value="" placeholder="搜索...">
+				<input type="submit" value="">
+			</form>
+		</div>
+		<div class="clearfix"> </div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+    	
+		<!-- start header menu -->
+		<ul class="megamenu skyblue">
+			<li class="active grid"><a href="index.html" class="color1"><strong>首页</strong></a></li>
+			<li class="grid"><a href="contact.html" class="color2"><strong>关于</strong></a></li>
+			<li><a href="checkout.html" class="color4"><strong>购物车</strong></a></li>				
+			<li><a href="register.html" class="color5"><strong>会员/注册</strong></a>
+				<div class="megapanel">
+					<div class="row">
+						<div class="col1">
+							<div class="h_nav">
+								<h4>新品热卖</h4>
+								<ul>
+									<li><a href="more.html">烤炉</a></li>
+									<li><a href="more.html">户外装备</a></li>
+									<li><a href="more.html">搭配</a></li>
+									<li><a href="more.html">热卖</a></li>
+									<li><a href="more.html">折扣</a></li>
+									<li><a href="more.html">敬请关注</a></li>
+								</ul>	
+							</div>							
+						</div>
+					</div>
+					<div class="row">
+						<div class="col2"></div>
+						<div class="col1"></div>
+						<div class="col1"></div>
+						<div class="col1"></div>
+						<div class="col1"></div>
+					</div>
+   				  </div>
+		  </li>
+				<li><a class="color6" href="details.html"><strong>商品连连看</strong></a>
+				<div class="megapanel">
+					<div class="row">
+						<div class="col1">
+							<div class="h_nav">
+								<h4>新品热卖</h4>
+								<ul>
+									<li><a href="more.html">烤炉</a></li>
+									<li><a href="more.html">户外装备</a></li>
+									<li><a href="more.html">搭配</a></li>
+									<li><a href="more.html">热卖</a></li>
+									<li><a href="more.html">折扣</a></li>
+									<li><a href="more.html">敬请关注</a></li>
+								</ul>	
+							</div>							
+						</div>
+					</div>
+					<div class="row">
+						<div class="col2"></div>
+						<div class="col1"></div>
+						<div class="col1"></div>
+						<div class="col1"></div>
+						<div class="col1"></div>
+					</div>
+   				  </div>
+		  </li>				
+			
+				<li><a class="color7" href="more.html"><strong>更多</strong></a>
+				<div class="megapanel">
+					<div class="row">
+						<div class="col1">
+							<div class="h_nav">
+								<h4>新品热卖</h4>
+								<ul>
+									<li><a href="more.html">烤炉</a></li>
+									<li><a href="more.html">户外装备</a></li>
+									<li><a href="more.html">搭配</a></li>
+									<li><a href="more.html">热卖</a></li>
+									<li><a href="more.html">折扣</a></li>
+									<li><a href="more.html">敬请关注</a></li>
+								</ul>	
+							</div>							
+						</div>
+					</div>
+					<div class="row">
+						<div class="col2"></div>
+						<div class="col1"></div>
+						<div class="col1"></div>
+						<div class="col1"></div>
+						<div class="col1"></div>
+					</div>
+   				  </div>
+				</li>	
+	  </ul> 
+	</div>
+</div>
+</div>			
+<!-- content -->
+<div class="container">
+<div class="women_main">
+	<!-- start content -->
+			<div class="row single">
+				<div class="col-md-9 det">
+				  <div class="single_left">
+					<div class="grid images_3_of_2">
+						<ul id="etalage">
+							<li>
+								<a href="optionallink.html">
+									<img class="etalage_thumb_image" src="images/韩式电烤炉.jpg" class="img-responsive" />
+									<img class="etalage_source_image" src="images/韩式电烤炉.jpg" class="img-responsive" title="" />
+								</a>
+							</li>
+							<li>
+								<img class="etalage_thumb_image" src="images/韩式电烤炉1.jpg" class="img-responsive" />
+								<img class="etalage_source_image" src="images/韩式电烤炉1.jpg" class="img-responsive" title="" />
+							</li>
+							<li>
+								<img class="etalage_thumb_image" src="images/韩式电烤炉2.jpg" class="img-responsive"  />
+								<img class="etalage_source_image" src="images/韩式电烤炉2.jpg"class="img-responsive"  />
+							</li>
+						    <li>
+								<img class="etalage_thumb_image" src="images/韩式电烤炉3.jpg" class="img-responsive"  />
+								<img class="etalage_source_image" src="images/韩式电烤炉3.jpg"class="img-responsive"  />
+							</li>
+							<li>
+								<img class="etalage_thumb_image" src="images/韩式电烤炉4.jpg" class="img-responsive"  />
+								<img class="etalage_source_image" src="images/韩式电烤炉4.jpg"class="img-responsive"  />
+							</li>
+						</ul>
+						 <div class="clearfix"></div>		
+				  </div>
+				  <div class="desc1 span_3_of_2">
+					<h3>韩式电烧烤炉家用无烟电烤盘 烧烤火锅一体锅铁板烧烤肉机鸳鸯锅</h3>
+					<br>
+					<p>包装体积: 73x36x23&nbsp;&nbsp;品牌: 烧烤火锅一体&nbsp;&nbsp; 毛重: 6.6kg &nbsp;&nbsp; 燃料种类: 电力<br> 颜色分类: 黑&nbsp;&nbsp; 黑色货号: JH-001&nbsp;&nbsp;  适用人数: 5人以上</p>
+						<div class="price">
+							<span class="text">价格:</span>
+							<span class="price-new">¥176</span><span class="price-old">¥228</span> 
+							<span class="price-tax">税前: ¥200</span><br>
+							<span class="points"><small>购物积分: 400</small></span><br>
+						</div>
+					<div class="det_nav1">
+						<h4>选择大小 :</h4>
+							<div class=" sky-form col col-4">
+								<ul>
+									<li><label class="checkbox"><input type="checkbox" name="checkbox"><i></i>L</label></li>
+									<li><label class="checkbox"><input type="checkbox" name="checkbox"><i></i>S</label></li>
+									<li><label class="checkbox"><input type="checkbox" name="checkbox"><i></i>M</label></li>
+									<li><label class="checkbox"><input type="checkbox" name="checkbox"><i></i>XL</label></li>
+								</ul>
+							</div>
+					</div>
+					<div class="btn_form">
+						<a href="checkout.html">立即购买</a>
+					</div>	
+			   	 </div>
+          	    <div class="clearfix"></div>
+          	   </div>
+          	    <div class="single-bottom1">
+					<h6>详情</h6>
+					<p class="prod-desc">优势一：无与伦比的工艺性，韩版高档无油烟不粘电烤炉，可供3-12口之家欢乐的享用美味美食！ 优势二：电烤炉行业相关技术！出厂前共三次检查宝贝，高要求、高标准造就更高的品质宝贝！优势三：品牌保障，售后无忧，低价格，享受厨房带来的欢乐！优势四：可以让买家感受一边火锅一边烧烤的乐趣。</p>
+				</div>
+				<div class="single-bottom2">
+					<h6>相关商品</h6>
+						<div class="product">
+						   <div class="product-desc">
+								<div class="product-img">
+		                           <img src="images/电烤炉2.jpg" class="img-responsive " alt=""/>
+		                       </div>
+		                       <div class="prod1-desc">
+		                           <h5><a class="product_link" href="#">升级版不锈钢家用无烟烧烤炉</a></h5>
+		                           <p class="product_descr"> 大号加厚电烧烤炉家用电烤杯烤架韩式无烟不锈钢烤肉机室内烤串锅，安全省电，坚固耐用，媲美碳烤，烧烤迅速，每炉5分钟左右。</p>									
+							   </div>
+							  <div class="clearfix"></div>
+					      </div>
+						  <div class="product_price">
+								<span class="price-access">¥158</span>								
+								<button class="button1"><span><a href="checkout.html">添加到购物车</a></span></button>
+		                  </div>
+						 <div class="clearfix"></div>
+				     </div>
+				     <div class="product">
+						   <div class="product-desc">
+								<div class="product-img">
+		                           <img src="images/烧烤油刷.jpg" class="img-responsive " alt=""/>
+		                       </div>
+		                       <div class="prod1-desc">
+		                           <h5><a class="product_link" href="#">耐高温硅胶油刷</a></h5>
+		                           <p class="product_descr"> 耐高温硅胶刷：不变色，不掉毛，质地柔韧，易清洗，三支高档优质硅胶刷，最高性价比了。喜欢的亲，下手要快了，不定期恢复原价。拍2件，还加送1把哦~ </p>									
+							   </div>
+							   <div class="clearfix"></div>
+					      </div>
+						  <div class="product_price">
+								<span class="price-access">¥12.9</span>								
+								<button class="button1"><span><a href="checkout.html">添加到购物车</a></span></button>
+		                  </div>
+						 <div class="clearfix"></div>
+				     </div>
+		   	  </div>
+	       </div>	
+	            <div class="clearfix"></div>		
+	  </div>
+	<!-- end content -->
+</div>
+</div>
+<div class="footer">
+	<div class="container">
+	  <p>Copyright &copy; 2016.烧烤部落-烤吧烤吧版权所有 </p>
+  </div>
+</div>
+</body>
+</html>
